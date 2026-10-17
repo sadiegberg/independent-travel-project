@@ -1,0 +1,50 @@
+﻿country,from_city,to_city,date,mode,operator,booking_id,fare_local,currency,fare_usd,estimated_fare,duration_min,estimated_duration,payment,payment_detail,estimated_payment,notes,include_in_analysis
+Israel,Tel Aviv,Athens,6/17/2026,flight,Sky Express,SKY-1706,,,,,135,no,card,online,no,Fare included in booking SKY-1706 (see Athens to Vienna row),no
+Greece,Athens,Athens,6/18/2026,bus,OSY,,5.50,EUR,6.30,no,65,yes,contactless,Apple Pay,no,Bus from Athens airport to city center; OSY = Athens Road Transport S.A.,yes
+Greece,Athens,Athens,6/18/2026,bus,OSY,,5.50,EUR,6.30,no,75,yes,contactless,Apple Pay,no,Bus taken from city center to Athens airport,yes
+Greece,Athens,Vienna,6/18/2026,flight,Sky Express,SKY-1706,140.69,EUR,163.32,no,130,no,card,online,no,Total includes taxes: 46.82 EUR. EUR to USD conversion calculated by date of purchase: 6/3/2026,no
+Austria,Vienna,Bratislava,6/19/2026,train,ÖBB,,12.00,EUR,13.77,yes,52,no,card,online,no,"REX 8, Simmering to Bratislava hl. st., fare estimated from published route pricing.",yes
+Slovakia,Bratislava,Vienna,6/19/2026,train,ÖBB,,18.95,EUR,21.75,no,50,yes,card,online,no,,yes
+Austria,Vienna,Vienna,6/19/2026,metro,Wiener Linien,,3.20,EUR,3.67,no,45,yes,contactless,Apple Pay,no,,yes
+Austria,Vienna,Vienna,6/19/2026,metro,Wiener Linien,,3.20,EUR,3.67,no,6,yes,contactless,Apple Pay,no,,yes
+Austria,Vienna,Vienna,6/19/2026,metro,Wiener Linien,,3.20,EUR,3.67,no,6,yes,contactless,Apple Pay,no,,yes
+Austria,Vienna,Vienna,6/20/2026,tram,Wiener Linien,,3.20,EUR,3.67,no,18,yes,card,ticket machine,no,To Schönbrunn Palace,yes
+Austria,Vienna,Vienna,6/20/2026,metro,Wiener Linien,,3.20,EUR,3.67,no,12,yes,card,ticket machine,no,,yes
+Austria,Vienna,Vienna,6/20/2026,metro,Wiener Linien,,3.20,EUR,3.67,no,14,yes,card,contactless,no,,yes
+Austria,Vienna,Vienna,6/21/2026,tram,Wiener Linien,,3.20,EUR,3.67,no,12,yes,card,ticket machine,no,,yes
+Austria,Vienna,Vienna,6/21/2026,tram,Wiener Linien,,3.20,EUR,3.67,no,17,no,card,ticket machine,no,To Belvedere Schlossgarten,yes
+Austria,Vienna,Ljubljana,6/22/2026,bus,FlixBus,,40.98,EUR,46.83,no,310,no,app,card in app,no,,yes
+Slovenia,Ljubljana,Jesenice,6/24/2026,train,SŽ,,7.70,EUR,8.74,yes,75,yes,cash,ticket counter,no,Ljubljana to Jesenice fare based on a published traveler-reported price.,yes
+Slovenia,Lesce,Bled,6/24/2026,bus,Arriva,,1.50,EUR,1.70,yes,9,yes,cash,cash,no,"Cash only, card not accepted",yes
+Slovenia,Bled,Lesce,6/24/2026,shuttle,Adventure Hostel,,,,,,10,yes,none,none,no,shuttle was included in the lodging price and has no separate fare.,no
+Slovenia,Lesce,Bled,6/25/2026,shuttle,Adventure Hostel,,,,,,10,yes,none,none,no,shuttle was included in the lodging price and has no separate fare.,no
+Slovenia,Bled,Bled,6/26/2026,bike,3glav Adventures,,15.00,EUR,17.08,no,240,yes,cash,cash,no,rented pedal bike,yes
+Slovenia,Bled,Ljubljana,6/27/2026,bus,Arriva,,9.60,EUR,10.94,yes,75,yes,card,online,no,,yes
+Slovenia,Ljubljana,Split,6/27/2026,bus,FlixBus,,55.97,USD,55.97,no,495,no,app,card in app,no,FlixBus Ljubljana to Split made a stop in Zagreb,yes
+Croatia,Split,Dubrovnik,6/29/2026,bus,FlixBus,,28.49,USD,28.49,no,270,no,app,card in app,no,,yes
+Croatia,Dubrovnik,Dubrovnik,6/29/2026,bus,Libertas,,2.50,EUR,2.85,yes,10,yes,contactless,Apple Pay,no,,yes
+Croatia,Dubrovnik,Dubrovnik,6/30/2026,bus,Libertas,,2.50,EUR,2.85,yes,15,yes,contactless,Apple Pay,no,,yes
+Croatia,Dubrovnik,Mostar,7/1/2026,bus,FlixBus,,38.99,USD,38.99,no,195,no,app,card in app,no,Includes service fee (3.99 USD),yes
+Bosnia and Herzegovina,Mostar,Kotor,7/4/2026,bus,Globus Turist D.O.O,,36.00,EUR,41.17,no,450,yes,card,online,no,Includes taxes and fees (1 EUR); duration estimated from published route,yes
+Montenegro,Kotor,Perast,7/4/2026,boat,private (rented by someone else),,,,,,30,yes,none,none,no,,no
+Montenegro,Perast,Kotor,7/4/2026,boat,private (rented by someone else),,,,,,35,yes,none,none,no,,no
+Montenegro,Kotor,Shkodër,7/5/2026,bus,Old Town Travel,,30.70,EUR,35.11,no,230,yes,card,online,no,Includes taxes and fees (3.70 EUR),yes
+Albania,Shkodër,Koman Lake,7/7/2026,bus,Candy Tours,CANDY-0707,8.00,EUR,9.13,yes,90,yes,cash,cash,no,,yes
+Albania,Koman Lake,Fierzë,7/7/2026,ferry,Candy Tours,CANDY-0707,10.00,EUR,11.41,yes,210,yes,cash,cash,no,,yes
+Albania,Fierzë,Valbonë,7/7/2026,shuttle,Candy Tours,CANDY-0707,8.00,EUR,9.13,yes,60,yes,cash,cash,no,,yes
+Albania,Theth,Theth,7/9/2026,hitchhiked,private,,0.00,EUR,0.00,no,20,yes,none,none,no,,yes
+Albania,Theth,Shkodër,7/9/2026,bus,Candy Tours,CANDY-0707,9.00,EUR,10.27,yes,165,yes,cash,cash,no,,yes
+Albania,Shkodër,Tiranë,7/11/2026,bus,unknown,,470.00,ALL,5.70,yes,120,yes,cash,cash,no,Paid in lek; fare estimated (~5 EUR converted at ~94 lek per euro); exact amount not remembered.,yes
+Albania,Tiranë,Krujë,7/11/2026,marshrutka,unknown,,180.00,ALL,2.18,yes,60,yes,cash,cash,no,Paid in lek; fare estimated (~2 EUR converted at ~94 lek per euro); a marshrutka = furgon in Albania,yes
+Albania,Krujë,Tiranë,7/12/2026,marshrutka,unknown,,180.00,ALL,2.18,yes,60,yes,cash,cash,no,Paid in lek; fare estimated (~2 EUR converted at ~94 lek per euro).,yes
+Albania,Tiranë,Tiranë,7/14/2026,bus,unknown,,40.00,ALL,0.49,yes,25,yes,cash,paid on board,yes,Fare estimated from published city bus rate of 40 lek; exact amount not remembered.,yes
+Albania,Tiranë,Sarandë,7/14/2026,bus,unknown,,1400.00,ALL,16.97,yes,300,yes,cash,terminal counter,no,Paid in lek; fare estimated (~15 EUR converted at ~94 lek per euro); exact amount not remembered.,yes
+Albania,Sarandë,Gjirokastër,7/16/2026,marshrutka,unknown,,400.00,ALL,4.86,yes,70,yes,cash,paid driver,no,Day trip; paid in lek; fare estimated (~4.50 EUR converted at ~94 lek per euro); shared van that left when full.,yes
+Albania,Gjirokastër,Sarandë,7/16/2026,marshrutka,unknown,,400.00,ALL,4.86,yes,70,yes,cash,paid driver,no,Return leg of day trip; paid in lek; fare estimated (~4.50 EUR converted at ~94 lek per euro).,yes
+Albania,Sarandë,Athens,7/16/2026,bus,Ahmeti Travel,,35.00,EUR,40.05,no,720,yes,card,card,no,Long-distance bus; duration estimated from published ~11-12 hour trip time.,yes
+Greece,Athens,Piraeus,7/18/2026,metro,STASY,,1.20,EUR,1.37,no,20,yes,contactless,Apple Pay,no,"Monastiraki to Piraeus on Line 1 (green), direct; standard 90-minute ticket; duration estimated.",yes
+Greece,Piraeus,Aegina,7/18/2026,ferry,unknown,,10.00,EUR,11.44,yes,80,yes,card,card,no,"Large conventional ferry (car deck, dining hall); fare and duration estimated from published rates.",yes
+Greece,Aegina,Piraeus,7/18/2026,ferry,Aero High Speed,,19.00,EUR,21.73,yes,40,yes,card,card,no,High-speed return; fare estimated from published ~€19 rate.,yes
+Greece,Piraeus,Athens,7/18/2026,metro,STASY,,1.20,EUR,1.37,no,18,yes,contactless,Apple Pay,no,"Piraeus to Thissio on Line 1 (green), direct, for Thission Open Air Cinema; standard 90-minute ticket; duration estimated.",yes
+Greece,Athens,Athens,7/19/2026,metro,STASY,,9.00,EUR,10.29,no,42,yes,contactless,Apple Pay,no,Monastiraki to Athens International Airport on Line 3; airport-section fare; duration estimated.,yes
+Greece,Athens,Tel Aviv,7/19/2026,flight,Israir,,227.48,ILS,75.00,no,360,no,card,online,no,Fare as charged: 227.48 ILS ($75.00).,no

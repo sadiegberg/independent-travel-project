@@ -1,0 +1,17 @@
+region,mode,rides,estimated
+Europe,bus,18,9
+Central Asia,metro,8,4
+Europe,marshrutka,4,4
+Europe,ferry,3,3
+Central Asia,bus,4,2
+Central Asia,marshrutka,2,2
+Europe,train,3,2
+Europe,shuttle,1,1
+Central Asia,hitchhiked,1,0
+Central Asia,informal ride,1,0
+Central Asia,taxi,52,0
+Central Asia,train,4,0
+Europe,bike,1,0
+Europe,hitchhiked,1,0
+Europe,metro,8,0
+Europe,tram,3,0

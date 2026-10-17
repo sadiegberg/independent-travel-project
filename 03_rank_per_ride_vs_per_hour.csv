@@ -1,0 +1,10 @@
+country,rides,avg_fare_per_ride,usd_per_hour,rank_cheapest_per_ride,rank_cheapest_per_hour
+Kyrgyzstan,15,5.57,3.14,4,1
+Albania,13,9.02,3.57,7,2
+Slovenia,5,18.89,6.34,9,3
+Uzbekistan,32,5.27,6.77,2,4
+Kazakhstan,14,5.37,7.89,3,5
+Croatia,4,18.3,8.96,8,6
+Greece,7,8.4,10.38,5,7
+Austria,10,9.0,10.97,6,8
+Armenia,11,3.38,12.75,1,9

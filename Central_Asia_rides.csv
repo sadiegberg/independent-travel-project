@@ -1,0 +1,91 @@
+﻿country,from_city,to_city,date,mode,operator,booking_id,fare_local,currency,fare_usd,estimated_fare,duration_min,estimated_duration,payment,payment_detail,estimated_payment,notes,include_in_analysis
+Israel,Tel Aviv,Yerevan,8/7/2026,flight,FlyOne,,240.30,USD,240.30,no,130,yes,card,online,no,fees included; not comparable to ground transit,no
+Armenia,Yerevan,Yerevan,8/7/2026,taxi,Yandex Go,,2700.00,AMD,6.89,no,30,yes,app,card in app,no,from airport to city center,yes
+Armenia,Yerevan,Yerevan,8/7/2026,metro,Yerevan Metro,,150.00,AMD,0.40,yes,10,yes,contactless,Apple Pay,yes,published fare,yes
+Armenia,Yerevan,Yerevan,8/7/2026,metro,Yerevan Metro,,150.00,AMD,0.40,yes,15,yes,contactless,Apple Pay,yes,published fare,yes
+Armenia,Yerevan,Yerevan,8/8/2026,metro,Yerevan Metro,,150.00,AMD,0.40,yes,15,yes,contactless,Apple Pay,yes,published fare,yes
+Armenia,Yerevan,Yerevan,8/8/2026,taxi,Yandex Go,,2000.00,AMD,5.11,no,15,yes,app,card in app,no,,yes
+Armenia,Yerevan,Yerevan,8/8/2026,taxi,Yandex Go,,900.00,AMD,2.30,no,15,yes,app,card in app,no,,yes
+Armenia,Yerevan,Yerevan,8/9/2026,taxi,Yandex Go,,1100.00,AMD,3.01,no,10,no,app,card in app,no,,yes
+Armenia,Yerevan,Yerevan,8/9/2026,taxi,Yandex Go,,2000.00,AMD,5.51,no,15,yes,app,card in app,no,,yes
+Armenia,Yerevan,Yerevan,8/9/2026,taxi,Yandex Go,,1300.00,AMD,3.59,no,8,yes,app,card in app,no,,yes
+Armenia,Yerevan,Yerevan,8/9/2026,taxi,Yandex Go,,1400.00,AMD,3.83,no,15,no,app,card in app,no,,yes
+Armenia,Yerevan,Yerevan,8/9/2026,taxi,Yandex Go,,2100.00,AMD,5.74,no,27,no,app,card in app,no,Taxi to airport,yes
+Armenia,Yerevan,Almaty,8/10/2026,flight,FlyOne,,167.58,USD,167.58,no,205,yes,card,online,no,fees included; not comparable to ground transit; border crossing,no
+Kazakhstan,Almaty,Almaty,8/10/2026,taxi,Yandex Go,,5260.00,KZT,10.93,no,30,yes,app,card in app,no,,yes
+Kazakhstan,Almaty,Almaty,8/10/2026,taxi,Yandex Go,,820.00,KZT,1.74,no,13,no,app,card in app,no,,yes
+Kazakhstan,Almaty,Almaty,8/10/2026,taxi,Yandex Go,,3650.00,KZT,7.77,no,29,no,app,card in app,no,,yes
+Kazakhstan,Almaty,Almaty,8/10/2026,taxi,Yandex Go,,1500.00,KZT,3.12,no,15,yes,app,card in app,no,,yes
+Kazakhstan,Almaty,Almaty,8/10/2026,taxi,Yandex Go,,4200.00,KZT,8.73,no,30,yes,app,card in app,no,,yes
+Kazakhstan,Almaty,Almaty,8/11/2026,taxi,Yandex Go,,2780.00,KZT,5.96,no,35,no,app,card in app,no,heavy traffic,yes
+Kazakhstan,Almaty,Almaty,8/11/2026,metro,Almaty Metro,,120.00,KZT,0.25,yes,10,yes,contactless,Apple Pay,yes,published fare,yes
+Kazakhstan,Almaty,Big Almaty Lake,8/11/2026,taxi,Yandex Go,,4660.00,KZT,10.00,no,50,yes,app,card in app,no,"Park entrance fee was 3,765 KZT ($8.10 usd)",yes
+Kazakhstan,Big Almaty Lake,Almaty,8/11/2026,taxi,Yandex Go,,1170.00,KZT,2.51,no,50,yes,app,card in app,no,,yes
+Kazakhstan,Almaty,Almaty,8/11/2026,taxi,Yandex Go,,2150.00,KZT,4.61,no,15,yes,app,card in app,no,,yes
+Kazakhstan,Almaty,Almaty,8/12/2026,taxi,Yandex Go,,560.00,KZT,1.17,no,15,yes,app,card in app,no,,yes
+Kazakhstan,Almaty,Lake Kaindy,8/12/2026,bus,Joinme Asia,JMASIA-1208,,,,,840,yes,card + cash,mixed (card + cash),no,"village trip bundle ($60); included lodging, breakfast, guide, stops en route; not comparable for cost analysis; ~50% deposit online by card via operator website; ~50% paid in cash in KZT on arrival.",no
+Kazakhstan,Lake Kaindy,Kolsai Lake,8/12/2026,bus,Joinme Asia,JMASIA-1208,,,,,,,none,none,no,,no
+Kazakhstan,Kolsai Lake,Saty,8/12/2026,bus,Joinme Asia,JMASIA-1208,,,,,,,none,none,no,,no
+Kazakhstan,Saty,Black Canyon,8/13/2026,bus,Joinme Asia,JMASIA-1208,,,,,,,none,none,no,,no
+Kazakhstan,Black Canyon,Moon Canyon,8/13/2026,bus,Joinme Asia,JMASIA-1208,,,,,,,none,none,no,,no
+Kazakhstan,Moon Canyon,Charyn Canyon,8/13/2026,bus,Joinme Asia,JMASIA-1208,,,,,,,none,none,no,,no
+Kazakhstan,Charyn Canyon,Almaty,8/13/2026,bus,Joinme Asia,JMASIA-1208,,,,,,,none,none,no,,no
+Kazakhstan,Almaty,Almaty,8/13/2026,taxi,Yandex Go,,2440.00,KZT,5.19,no,25,no,app,card in app,no,,yes
+Kazakhstan,Almaty,Almaty,8/14/2026,taxi,Yandex Go,,2060.00,KZT,4.30,no,20,yes,app,card in app,no,,yes
+Kazakhstan,Almaty,Bishkek,8/14/2026,bus,Nurdan Tour,,8.90,USD,8.90,no,235,yes,card,online,no,from Sayran Bus Station; border crossing; booked via 12Go,yes
+Kyrgyzstan,Bishkek,Bishkek,8/14/2026,taxi,Yandex Go,,993.00,KGS,11.36,no,67,no,app,card in app,no,from Kyrgyzstan border to the city center,yes
+Kyrgyzstan,Bishkek,Ala Archa,8/16/2026,bus,Bishkek municipal,,50.00,KGS,0.57,yes,45,yes,card,online,no,Ala Archa = National Park,yes
+Kyrgyzstan,Ala Archa,Ala Archa,8/16/2026,bus,Ala Archa National Park,,,,,,20,yes,contactless,Apple Pay,no,Entrance ticket (shuttle included) bought by card at park gate; no separate shuttle fare; 250 KGS park entrance fee; from  NP main entrance (ticketing station) to trailhead,no
+Kyrgyzstan,Ala Archa,Ala Archa,8/16/2026,gondola,Ala Archa National Park,,600.00,KGS,6.86,yes,8,yes,cash,cash,no,"recreational; opened February 2026; optional ride, not required for park access; one way ride; from gondola lower station to gondola upper station",no
+Kyrgyzstan,Ala Archa,Ala Archa,8/16/2026,bus,Ala Archa National Park,,,,,,20,yes,contactless,Apple Pay,no,Entrance ticket (shuttle included) bought by card at park gate; no separate shuttle fare; 250 KGS park entrance fee; from trailhead to NP main entrance (ticketing station),no
+Kyrgyzstan,Ala Archa,Bishkek,8/16/2026,bus,Bishkek municipal,,50.00,KGS,0.57,yes,45,yes,card,online,no,,yes
+Kyrgyzstan,Bishkek,Bishkek,8/17/2026,taxi,Yandex Go,,120.00,KGS,1.37,no,10,yes,app,card in app,no,,yes
+Kyrgyzstan,Bishkek,Kyzart,8/17/2026,charter van,Song-Kol Travel,SONGKUL-1708,,,,,810,yes,card + cash,mixed (card + cash),yes,"package price in Extras tab; 3 days / 2 nights total; riding ~4-5 hrs/day; recreational trek; included lodging, meals, guide, horse; duration estimated: 810 min = 3 days x 4.5 hrs x 60; ~50% deposit online by card via operator website; ~50% paid in cash in KGS on arrival.",no
+Kyrgyzstan,Kyzart,Kilemche Valley,8/17/2026,horse,Song-Kol Travel,SONGKUL-1708,,,,,,,none,none,no,"package price in Extras tab; 3 days / 2 nights total; riding ~4-5 hrs/day; recreational trek; included lodging, meals, guide, horse",no
+Kyrgyzstan,Kilemche Valley,Song-Kol Lake,8/18/2026,horse,Song-Kol Travel,SONGKUL-1708,,,,,,,none,none,no,"package price in Extras tab; 3 days / 2 nights total; riding ~4-5 hrs/day; recreational trek; included lodging, meals, guide, horse",no
+Kyrgyzstan,Song-Kol Lake,Kyzart,8/19/2026,horse,Song-Kol Travel,SONGKUL-1708,,,,,,,none,none,no,"package price in Extras tab; 3 days / 2 nights total; riding ~4-5 hrs/day; recreational trek; included lodging, meals, guide, horse",no
+Kyrgyzstan,Kyzart,Kochkor,8/19/2026,charter van,Song-Kol Travel,SONGKUL-1708,,,,,,,none,none,no,"package price in Extras tab; 3 days / 2 nights total; riding ~4-5 hrs/day; recreational trek; included lodging, meals, guide, horse",no
+Kyrgyzstan,Kochkor,Kochkor,8/20/2026,taxi,independent,,50.00,KGS,0.57,no,5,yes,cash,cash,no,ordered via guest house host; negotiated price for 2 people,yes
+Kyrgyzstan,Kochkor,Bokonbayevo,8/20/2026,informal ride,private driver,,600.00,KGS,6.86,no,60,no,cash,cash,no,Driver approached us; traveled with a local family in a private car; negotiated price for 2 people,yes
+Kyrgyzstan,Bokonbayevo,Karakol,8/22/2026,marshrutka,private,,350.00,KGS,4.00,yes,180,yes,cash,cash,no,negotiated price for 2 people,yes
+Kyrgyzstan,Karakol,Karakol,8/22/2026,hitchhiked,private,,0.00,KGS,0.00,no,5,yes,none,none,no,,yes
+Kyrgyzstan,Karakol,Karakol,8/22/2026,taxi,Yandex Go,,171.00,KGS,1.96,no,5,no,app,card in app,no,,yes
+Kyrgyzstan,Karakol,Karakol,8/22/2026,taxi,Yandex Go,,154.00,KGS,1.76,no,5,yes,app,card in app,no,,yes
+Kyrgyzstan,Karakol,Bishkek,8/23/2026,marshrutka,private,,600.00,KGS,6.86,yes,390,yes,cash,cash,no,,yes
+Kyrgyzstan,Bishkek,Bishkek,8/23/2026,taxi,Yandex Go,,665.00,KGS,7.60,no,12,yes,app,card in app,no,,yes
+Kyrgyzstan,Bishkek,Bishkek,8/23/2026,taxi,Yandex Go,,224.00,KGS,2.56,no,7,yes,app,card in app,no,,yes
+Kyrgyzstan,Bishkek,Bishkek,8/24/2026,taxi,Yandex Go,,784.00,KGS,8.97,no,40,no,app,card in app,no,,yes
+Kyrgyzstan,Bishkek,Tashkent,8/24/2026,bus,unknown,,2500.00,KGS,28.59,no,720,yes,card,online,no,includes time waited at 2 borders; didn't get back on the bus after the 2nd border; border crossing; booked via e-meria.kg; operator: not stated,yes
+Uzbekistan,Tashkent,Tashkent,8/24/2026,metro,Tashkent Metro,,1700.00,UZS,0.14,no,15,yes,contactless,Apple Pay,yes,published fare,yes
+Uzbekistan,Tashkent,Tashkent,8/24/2026,taxi,Yandex Go,,42500.00,UZS,3.61,no,25,no,app,card in app,no,,yes
+Uzbekistan,Tashkent,Tashkent,8/25/2026,metro,Tashkent Metro,,1700.00,UZS,0.14,no,10,yes,contactless,Apple Pay,no,,yes
+Uzbekistan,Tashkent,Tashkent,8/25/2026,metro,Tashkent Metro,,1700.00,UZS,0.14,no,15,yes,contactless,Apple Pay,no,,yes
+Uzbekistan,Tashkent,Tashkent,8/25/2026,metro,Tashkent Metro,,1700.00,UZS,0.14,no,15,yes,contactless,Apple Pay,no,,yes
+Uzbekistan,Tashkent,Tashkent,8/25/2026,taxi,Yandex Go,,38500.00,UZS,3.26,no,20,yes,app,card in app,no,,yes
+Uzbekistan,Tashkent,Tashkent,8/25/2026,taxi,Yandex Go,,12500.00,UZS,1.06,no,15,yes,app,card in app,no,,yes
+Uzbekistan,Tashkent,Tashkent,8/26/2026,taxi,Yandex Go,,15500.00,UZS,1.32,no,15,yes,app,card in app,no,,yes
+Uzbekistan,Tashkent,Tashkent,8/26/2026,taxi,Yandex Go,,35500.00,UZS,3.01,no,20,yes,app,card in app,no,,yes
+Uzbekistan,Tashkent,Tashkent,8/27/2026,taxi,Yandex Go,,24500.00,UZS,2.08,no,20,yes,app,card in app,no,,yes
+Uzbekistan,Tashkent,Tashkent,8/27/2026,taxi,Yandex Go,,22800.00,UZS,1.93,no,15,yes,app,card in app,no,,yes
+Uzbekistan,Tashkent,Tashkent,8/28/2026,taxi,Yandex Go,,18500.00,UZS,1.56,no,10,yes,app,card in app,no,,yes
+Uzbekistan,Tashkent,Khiva,8/28/2026,train,Uzbekistan Railways,,780000.00,UZS,66.08,no,462,no,card,online,no,high-speed train,yes
+Uzbekistan,Khiva,Khiva,8/28/2026,taxi,Yandex Go,,20500.00,UZS,1.74,no,10,yes,app,card in app,no,,yes
+Uzbekistan,Khiva,Bukhara,8/30/2026,train,Uzbekistan Railways,,157100.00,UZS,13.32,no,367,no,card,online,no,sleeper train,yes
+Uzbekistan,Bukhara,Bukhara,8/30/2026,taxi,Yandex Go,,10000.00,UZS,0.85,no,25,yes,app,card in app,no,,yes
+Uzbekistan,Bukhara,Bukhara,8/30/2026,taxi,Yandex Go,,11500.00,UZS,0.97,no,8,yes,app,card in app,no,,yes
+Uzbekistan,Bukhara,Bukhara,8/30/2026,taxi,Yandex Go,,26000.00,UZS,2.20,no,20,yes,app,card in app,no,,yes
+Uzbekistan,Bukhara,Bukhara,9/2/2026,taxi,Yandex Go,,15000.00,UZS,1.27,no,15,yes,app,card in app,no,,yes
+Uzbekistan,Bukhara,Bukhara,9/2/2026,taxi,Yandex Go,,6500.00,UZS,0.55,no,4,yes,app,card in app,no,,yes
+Uzbekistan,Bukhara,Bukhara,9/2/2026,taxi,Yandex Go,,17500.00,UZS,1.48,no,10,yes,app,card in app,no,,yes
+Uzbekistan,Bukhara,Bukhara,9/3/2026,taxi,Yandex Go,,31000.00,UZS,2.63,no,25,yes,app,card in app,no,,yes
+Uzbekistan,Bukhara,Samarkand,9/3/2026,train,Uzbekistan Railways,,225000.00,UZS,19.14,no,97,no,card,online,no,high-speed train,yes
+Uzbekistan,Samarkand,Samarkand,9/3/2026,taxi,Yandex Go,,36000.00,UZS,3.05,no,15,yes,app,card in app,no,,yes
+Uzbekistan,Samarkand,Samarkand,9/3/2026,taxi,Yandex Go,,15000.00,UZS,1.27,no,10,yes,app,card in app,no,,yes
+Uzbekistan,Samarkand,Samarkand,9/4/2026,taxi,Yandex Go,,18000.00,UZS,1.53,no,15,yes,app,card in app,no,,yes
+Uzbekistan,Samarkand,Samarkand,9/4/2026,taxi,Yandex Go,,20500.00,UZS,1.74,no,17,no,app,card in app,no,,yes
+Uzbekistan,Samarkand,Samarkand,9/5/2026,taxi,Yandex Go,,12000.00,UZS,1.02,no,7,yes,app,card in app,no,,yes
+Uzbekistan,Samarkand,Samarkand,9/5/2026,taxi,Yandex Go,,19000.00,UZS,1.61,no,15,yes,app,card in app,no,,yes
+Uzbekistan,Samarkand,Tashkent,9/5/2026,train,Uzbekistan Railways,,311000.00,UZS,26.45,no,152,no,card,online,no,high-speed train,yes
+Uzbekistan,Tashkent,Tashkent,9/5/2026,taxi,Yandex Go,,9500.00,UZS,0.81,no,7,no,app,card in app,no,,yes
+Uzbekistan,Tashkent,Tashkent,9/6/2026,taxi,Yandex Go,,30000.00,UZS,2.55,no,19,no,app,card in app,no,,yes
+Uzbekistan,Tashkent,Tel Aviv,9/7/2026,flight,Azerbaijan Airlines,,354.00,USD,354.00,no,415,no,card,online,no,layover in Azerbaijan; duration not including layover time; taxes not included; not comparable to ground transit,no

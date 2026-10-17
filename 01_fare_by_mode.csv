@@ -1,0 +1,12 @@
+mode,rides,avg_fare_usd,usd_per_min
+train,7,24.18,0.135
+bus,22,18.12,0.085
+bike,1,17.08,0.071
+ferry,3,14.86,0.135
+shuttle,1,9.13,0.152
+informal ride,1,6.86,0.114
+marshrutka,6,4.16,0.03
+tram,3,3.67,0.234
+taxi,52,3.49,0.186
+metro,16,2.09,0.125
+hitchhiked,2,0.0,0.0

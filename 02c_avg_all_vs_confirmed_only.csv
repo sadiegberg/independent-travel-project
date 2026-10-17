@@ -1,0 +1,12 @@
+mode,avg_all,avg_confirmed_only,rides,confirmed
+train,24.18,29.35,7,5
+bus,18.12,30.61,22,11
+bike,17.08,17.08,1,1
+ferry,14.86,,3,0
+shuttle,9.13,,1,0
+informal ride,6.86,6.86,1,1
+marshrutka,4.16,,6,0
+tram,3.67,3.67,3,3
+taxi,3.49,3.49,52,52
+metro,2.09,2.66,16,12
+hitchhiked,0.0,0.0,2,2
