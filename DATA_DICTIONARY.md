@@ -63,7 +63,7 @@ Applies to `Europe_rides.csv` and `Central_Asia_rides.csv`. Both files have the 
 
 ## Blank cells
 
-A blank is meaningful in several columns. It does not always mean "missing":
+A blank is meaningful in several columns. It does not always signify "missing":
 
 - `fare_local`, `fare_usd`, `estimated_fare`: blank when there is no separate fare (a package leg, a ride included in lodging, or a ride given by someone else).
 - `duration_min`, `estimated_duration`: blank for package legs that share a single combined time.
