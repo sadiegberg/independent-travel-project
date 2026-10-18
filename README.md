@@ -1,10 +1,14 @@
 # Transit Affordability: What the Road Charged Me in Money and Time
 
-A ride-by-ride dataset of how I got around during a trip through Central Europe, the Balkans, Greece, Central Asia, and Armenia, plus the SQL I used to ask what that movement actually cost.
+A ride-by-ride dataset of how I got around during a 2026 trip through Central Europe, the Balkans, Greece, Central Asia, and Armenia, plus the SQL and Tableau work I used to ask what that movement actually cost.
+
+**[View the interactive dashboard on Tableau Public](https://public.tableau.com/views/transit-affordability-tableau/Dashboard3?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+![Dashboard overview](charts/05_dashboard_overview.png)
 
 - **Period:** June 17 – September 7, 2026
 - **Size:** 139 rides (49 in Europe, 90 in Central Asia); 114 are included in the analysis
-- **Tools:** DB Browser for SQLite, SQL, Excel/Sheets for data entry
+- **Tools:** DB Browser for SQLite, SQL, Tableau Public, Excel/Sheets for data entry
 - **Unit of observation:** one row per ride leg (one ticket or one vehicle)
 
 The data dictionary is in [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).
@@ -20,7 +24,9 @@ The data dictionary is in [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).
 
 ### 1. Fares vary enormously by mode
 
-Average fare per ride (USD), analysis rides only:
+![Average fare per ride by mode](charts/01_avg_fare_by_mode.png)
+
+Trains and buses cost roughly 5 to 12 times more per ride than taxis and metros. Average fare per ride (USD), analysis rides only:
 
 | Mode | Avg fare | Rides |
 |---|---|---|
@@ -35,15 +41,20 @@ Average fare per ride (USD), analysis rides only:
 
 ### 2. About a quarter of fares are estimates, and some modes are entirely estimated
 
-87 of the 114 analysis rides (76%) have confirmed fares; 27 (24%) are estimates reconstructed from published rates.
+![Estimated vs confirmed fares by mode](charts/02_estimated_vs_confirmed_dumbbell.png)
+
+87 of the 114 analysis rides (76%) have confirmed fares; 27 (24%) are estimates reconstructed from published rates. The chart compares each mode's average using all fares (orange) against confirmed fares only (blue).
 
 - The estimates are concentrated in a few modes. Every ferry and every marshrutka fare in the Europe data is an estimate, and so is half of the Europe bus data.
 - **Bus is the biggest swing:** the average is $18.12 with estimates and $30.61 using confirmed fares only. The estimated bus rides are mostly cheap local Albanian buses, while the confirmed ones skew long-distance.
-- Ferry, shuttle, and marshrutka have no confirmed fares at all, so their averages are labeled as estimates.
+- Train ($24.18 vs. $29.35) and metro ($2.09 vs. $2.66) move less.
+- Ferry, shuttle, and marshrutka have no confirmed fares at all, so they show only an orange dot.
 
 ### 3. Cheap per ride is not the same as cheap per hour
 
-Ranking countries with at least three analyzable rides:
+![Rank per ride vs rank per hour](charts/03_rank_per_ride_vs_per_hour_slope.png)
+
+Ranking countries with at least three analyzable rides (1 = cheapest):
 
 | Country | Rides | Avg fare per ride | USD per hour | Rank per ride | Rank per hour |
 |---|---|---|---|---|---|
@@ -61,7 +72,9 @@ Armenia is the cheapest country per ride but the most expensive per hour of trav
 
 ### 4. Some days cost money, others cost time
 
-Across 45 travel days, I averaged about $6.14 per hour on the road. I labeled each day relative to that baseline: "paid in money" if it cost more than 1.5× the baseline per hour, "paid in time" if it cost less than 0.5×.
+![Calendar heatmap of money vs time](charts/04_money_vs_time_calendar_heatmap.png)
+
+Across 45 travel days, I averaged about $6.14 per hour on the road. I labeled each day relative to that baseline: "paid in money" if it cost more than $9.21 per hour (1.5× the baseline), "paid in time" if it cost less than $3.07 per hour (0.5×).
 
 | Day type | Days | Total spent | Hours traveled |
 |---|---|---|---|
@@ -69,7 +82,7 @@ Across 45 travel days, I averaged about $6.14 per hour on the road. I labeled ea
 | Paid in time | 6 | $53.28 | 22.6 |
 | Balanced | 26 | $567.09 | 102.8 |
 
-I spent about the same number of hours on money days and time days, but the money days cost roughly five times as much.
+I spent about the same number of hours on money days and time days, but the money days cost roughly five times as much. In the calendar, money days tend to be city days with short, pricier rides (for example June 19–21 in Vienna and July 18–19 in Athens), while time days are long, cheap rides (for example July 11–12 on Albanian local buses and vans). Blank weeks are gaps between trips with no rides logged.
 
 ## How the data was collected
 
@@ -92,9 +105,10 @@ I spent about the same number of hours on money days and time days, but the mone
 
 ## Limitations
 
-- **Estimates.** 24% of analysis fares are estimated, and estimated durations are more common still. The sensitivity check above shows where this matters most.
+- **Estimates.** 24% of analysis fares are estimated, and estimated durations are more common still. Chart 2 shows where this matters most.
 - **Small samples.** Slovenia (5 rides) and Croatia (4) are thin; I treat their rankings as suggestive.
 - **Mix of rides.** Averages blend short city rides with long intercity trips, which is exactly why fare per ride and fare per hour tell different stories.
+- **Arbitrary cutoffs.** The money and time thresholds in the calendar (1.5× and 0.5× the overall average) are my choice; moving them changes how many days fall in each group.
 - **One traveler, one summer.** This is a personal dataset, not a representative sample of any country's transit system. Fares reflect 2026 prices and tourist-accessible options.
 - **Exchange rates.** Daily conversions use public historical rates and rounding; small differences are possible.
 - **Ride time only.** Waiting, which is a large part of travel in some regions, is not measured.
@@ -104,6 +118,7 @@ I spent about the same number of hours on money days and time days, but the mone
 1. Open `transit_rides.db` in [DB Browser for SQLite](https://sqlitebrowser.org/) (File → Open Database), **or** import both CSVs as UTF-8 with column names in the first line, as tables `europe` and `central_asia`, and run the build script in `queries/` to create the combined `rides` table.
 2. Run the queries in `queries/` in the Execute SQL tab. Highlight one query and press Ctrl+Return to run it on its own.
 3. Every analysis query filters on `include_in_analysis = 'yes'`.
+4. The Tableau charts use an export of the `rides` table and the daily results from query 4. The calculations for charts 2 and 3 (`Avg confirmed`, `USD per hour`, and the rank fields) are built inside Tableau.
 
 ## Repository structure
 
@@ -122,6 +137,12 @@ I spent about the same number of hours on money days and time days, but the mone
 │   ├── 02_estimated_vs_confirmed.sql
 │   ├── 03_rank_per_ride_vs_per_hour.sql
 │   └── 04_money_vs_time_by_day.sql
-└── results/
-    └── (exported query results as CSV)
+├── results/
+│   └── (exported query results as CSV)
+└── charts/
+    ├── 01_avg_fare_by_mode.png
+    ├── 02_estimated_vs_confirmed_dumbbell.png
+    ├── 03_rank_per_ride_vs_per_hour_slope.png
+    ├── 04_money_vs_time_calendar_heatmap.png
+    └── 05_dashboard_overview.png
 ```
