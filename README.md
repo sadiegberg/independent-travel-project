@@ -2,9 +2,9 @@
 
 A ride-by-ride dataset of how I got around during a 2026 trip through Central Europe, the Balkans, Greece, Central Asia, and Armenia, plus the SQL and Tableau work I used to ask what that movement actually cost.
 
-**[View the interactive dashboard on Tableau Public](https://public.tableau.com/views/transit-affordability-tableau/Dashboard3?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+**[Interactive dashboard on Tableau Public](https://public.tableau.com/views/transit-affordability-tableau/Dashboard3)**
 
-![Dashboard overview](charts/05_dashboard_overview.png)
+![Dashboard overview](05_dashboard_overview.png)
 
 - **Period:** June 17 – September 7, 2026
 - **Size:** 139 rides (49 in Europe, 90 in Central Asia); 114 are included in the analysis
@@ -24,7 +24,7 @@ The data dictionary is in [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).
 
 ### 1. Fares vary enormously by mode
 
-![Average fare per ride by mode](charts/01_avg_fare_by_mode.png)
+![Average fare per ride by mode](01_avg_fare_by_mode.png)
 
 Trains and buses cost roughly 5 to 12 times more per ride than taxis and metros. Average fare per ride (USD), analysis rides only:
 
@@ -41,7 +41,7 @@ Trains and buses cost roughly 5 to 12 times more per ride than taxis and metros.
 
 ### 2. About a quarter of fares are estimates, and some modes are entirely estimated
 
-![Estimated vs confirmed fares by mode](charts/02_estimated_vs_confirmed_dumbbell.png)
+![Estimated vs confirmed fares by mode](02_estimated_vs_confirmed_dumbbell.png)
 
 87 of the 114 analysis rides (76%) have confirmed fares; 27 (24%) are estimates reconstructed from published rates. The chart compares each mode's average using all fares (orange) against confirmed fares only (blue).
 
@@ -52,7 +52,7 @@ Trains and buses cost roughly 5 to 12 times more per ride than taxis and metros.
 
 ### 3. Cheap per ride is not the same as cheap per hour
 
-![Rank per ride vs rank per hour](charts/03_rank_per_ride_vs_per_hour_slope.png)
+![Rank per ride vs rank per hour](03_rank_per_ride_vs_per_hour_slope.png)
 
 Ranking countries with at least three analyzable rides (1 = cheapest):
 
@@ -72,7 +72,7 @@ Armenia is the cheapest country per ride but the most expensive per hour of trav
 
 ### 4. Some days cost money, others cost time
 
-![Calendar heatmap of money vs time](charts/04_money_vs_time_calendar_heatmap.png)
+![Calendar heatmap of money vs time](04_money_vs_time_calendar_heatmap.png)
 
 Across 45 travel days, I averaged about $6.14 per hour on the road. I labeled each day relative to that baseline: "paid in money" if it cost more than $9.21 per hour (1.5× the baseline), "paid in time" if it cost less than $3.07 per hour (0.5×).
 
